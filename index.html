@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Qual a melhor opção?</h1>
+        <label for="alcool">Álcool (preço por litro):</label>
+        <input type="number" id="alcool" placeholder="Digite o valor do Álcool">
+
+        <label for="gasolina">Gasolina (preço por litro):</label>
+        <input type="number" id="gasolina" placeholder="Digite o valor da Gasolina">
+
+        <button onclick="calcular()">CALCULAR</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
